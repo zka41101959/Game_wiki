@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.tn-person-r .tn-title {
+    float: left;
+    font-size: 14px;
+    position: relative;
+    margin-left: 20px;
+    width: 90px;
+}
+
+.tn-person-r .tn-title .tn-tab {
+    border: 1px solid #004d00;
+    border-width: 0 1px;
+    color: #004d22;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    z-index: 9999;
+    padding: 0 2px 0 0;
+    text-decoration: none;
+    /* text-align: center; */
+    bottom: 0px;
+    width: 90px;
+    height: 75px;
+    line-height: 56px;
+    text-align: center;
+    font-size: large;
+}
+
+.tn-tab i {
+    margin: 0 auto;
+}
+
+.tn-person-r .tn-arrow {
+    display: inline-block;
+    width: 8px;
+    height: 5px;
+    margin: 0 0 0 5px;
+    overflow: hidden;
+    vertical-align: middle;
+    font-size: 12px;
+    line-height: 13px;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -o-transform: none;
+    background: url(icon.png) 0 -977px no-repeat;
+}
+
+.tn-person-r .tn-new {
+    margin-top: -10px;
+    position: absolute;
+    background: url(icon.png) 0 -1017px;
+    width: 14px;
+    height: 11px;
+}
+
+.tn-person-r .tn-topmenulist-a-weibo,
+.tn-topmenulist-a-other {
+    width: 77px;
+}
+
+.tn-person-r .tn-topmenulist-a {
+    border: 1px solid #EBBE7A;
+    border-top: 0;
+    overflow: hidden;
+    -moz-box-shadow: 3px 3px 3px rgba(0, 0, 0, .1);
+    -webkit-box-shadow: 3px 3px 3px rgba(0, 0, 0, .1);
+    box-shadow: 3px 3px 3px rgba(114, 114, 114, 0.1);
+    top: 41px;
+    left: 0;
+}
+
+.tn-person-r .tn-topmenulist .tn-text-list {
+    border-bottom: 1px solid #FECC5B;
+    margin: 0 0 -2px;
+    width: 180px;
+}
+
+.tn-person-r .tn-topmenulist .tn-text-list li {
+    top: 20px;
+    width: 90px;
+    line-height: 31px;
+    border-bottom: 1px solid #FECC5B;
+    color: #333;
+    padding: 0 15px;
+}
+
+.top-nav {
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    float: right;
+    right: 600px;
+    top: 0;
+    z-index: 999;
+}
+
+.nav_tt {
+    position: absolute;
+    width: 1055px;
+    height: 75px;
+    right: 0;
+    /* background-color: #4C4C4C; */
+    z-index: 99999;
+}
+
+.tn-tab i {
+    font-style: normal;
+}
